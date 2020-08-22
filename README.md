@@ -159,25 +159,3 @@ esAnioNuevo('03/05/2015') // false
 esAnioNuevo('22/01/1987') // false
 esAnioNuevo('01/01/2020') // true
 ```
-
-### `aprueba(nota)`
-
-Crear una función `aprueba` que tome como argumento un número `nota` y devuelva `true` si aprueba el examen (6 o más) o `false` si no. El número tiene que redondearse primero antes de evaluarlo. 5.4 redondea hacia abajo, 5.5 redondea hacia arriba. 
-
-```javascript
-aprueba(1) // false
-aprueba(5.4) // false
-aprueba(5.5) // true
-aprueba(5.6) // true
-aprueba(8) // true
-```
-
-### `obtenerDuracionEnSegundos(duracion)`
-
-Crear una función `obtenerDuracionEnSegundos` que tome como argumento un string `duracion` con el formato (`mm:ss`) y la cantidad de segundos totales de la duración
-
-```javascript
-obtenerDuracionEnSegundos('00:33') // 33
-obtenerDuracionEnSegundos('01:05') // 65
-obtenerDuracionEnSegundos('10:42') // 642
-```
